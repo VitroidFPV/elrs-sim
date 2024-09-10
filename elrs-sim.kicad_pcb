@@ -15855,6 +15855,17 @@
 			(uuid "cc5c76d9-ef0c-4ada-a72e-b82de8718862")
 		)
 	)
+	(gr_rect
+		(start 111.5 106.5)
+		(end 116.5 111.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "d811ebb1-954a-4376-99fa-3d119d7a5dc9")
+	)
 	(gr_circle
 		(center 164 105.5)
 		(end 164.3 105.5)
