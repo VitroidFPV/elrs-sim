@@ -6725,6 +6725,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 229.87) (xy 200.66 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ed6cec-1dfb-4fee-854d-925b2e14fe40")
+	)
+	(wire
+		(pts
 			(xy 241.3 64.77) (xy 241.3 67.31)
 		)
 		(stroke
@@ -6875,7 +6885,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 219.71) (xy 200.66 233.68)
+			(xy 200.66 219.71) (xy 200.66 222.25)
 		)
 		(stroke
 			(width 0)
@@ -10412,7 +10422,7 @@
 		(dnp no)
 		(uuid "10ff3951-58bc-43b6-9ab7-21bcd9a44844")
 		(property "Reference" "X3"
-			(at 199.39 223.266 0)
+			(at 175.768 227.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10420,7 +10430,7 @@
 			)
 		)
 		(property "Value" "YSO510TP_52MHz"
-			(at 199.39 225.806 0)
+			(at 175.768 230.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11096,6 +11106,85 @@
 			(project ""
 				(path "/b1f5dd2a-859b-4a5a-8b1e-e98131c08e2f"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 200.66 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20e6a772-4a43-4d18-9187-fe9e64b28d7d")
+		(property "Reference" "C23"
+			(at 204.47 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 204.47 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 201.6252 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 200.66 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1523"
+			(at 204.47 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49945644-6850-49f6-ac80-4558f32000df")
+		)
+		(pin "2"
+			(uuid "f2e8c8b6-55f6-47f9-b79e-d0bff1f5dd3d")
+		)
+		(instances
+			(project "elrs-sim"
+				(path "/b1f5dd2a-859b-4a5a-8b1e-e98131c08e2f"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -11854,7 +11943,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "1uF"
 			(at 104.14 187.9599 0)
 			(effects
 				(font
