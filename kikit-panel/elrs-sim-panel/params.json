@@ -1,0 +1,22 @@
+{
+    "layout": {
+        "rows": "5",
+        "cols": "2",
+		"space": "3mm"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "5mm",
+        "hwidth": "5mm",
+		"vcount": "3"
+    },
+    "cuts": {
+        "type": "vcuts"
+    },
+	"framing": {
+		"type": "frame",
+		"width": "5mm",
+		"space": "3mm",
+		"cuts": "both"
+	}
+}
